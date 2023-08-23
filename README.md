@@ -20,3 +20,13 @@ Pasta e arquivos que conteram as regras de negócio.
 4. Quarto passo: Controller ficará a lógica.
 5. Quinto passo: As rotas chamam a lógica da pasta Controller.
 
+# Banco de dados
+
+MongoDB               Postgres
+Collection    =       Tabela
+Documents     =       linhas/registros
+Database      =       database
+
+* em database, ip: porta do servidor e nome do banco
+
+

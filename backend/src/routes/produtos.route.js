@@ -13,6 +13,7 @@ routerProduto
 .post('/produto', produtoController.criar)
 .put('/produto/:id', produtoController.atualizar)
 .get('/produto', produtoController.buscarTodos)
+.delete('/produto/:id', produtoController.excluir)
 
 
 

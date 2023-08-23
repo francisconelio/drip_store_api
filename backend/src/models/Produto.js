@@ -4,10 +4,15 @@ import mongoose, {Types} from "mongoose";
 
  const Produto = mongoose.model('Produto', {
     nome: String,
+    genero: {
+        type:  mongoose.Schema.Types.ObjectId,
+        ref:'Genero',
+        required: true
+    },
+    preco: Number,
+    desconto: Number,
     tipo: String,
-    genero: String,
-    preco: Types.Decimal128,
-    desconto: Types.Decimal128,
+         
 })
 
 export default Produto
