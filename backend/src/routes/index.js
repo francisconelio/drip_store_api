@@ -20,4 +20,4 @@ router.use("/", servicesRouter) //todas as rotas "barra alguma coisa" virão do 
 
 module.exports = router; // arquivo canalizador. vai juntar todas as rotas da minha aplicação
 
-
+*/
